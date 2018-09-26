@@ -52,9 +52,9 @@ SenaTecnica		</span>
 		</tr>
 	</table>
 	<p>
-	</p>
+<a href="Package_HxzY_8aGAqDIHQmw.html" class="PageParentTitle">usuarios : Package</a>	</p>
 	<p class="PageTitle">
-Entity - rol<a onclick="javascript: showVpLink('SenaTecnica2.vpp://modelelement/zUJ_H8aGAqAQZRUi', 'rol\nSenaTecnica2.vpp://modelelement/zUJ_H8aGAqAQZRUi', 'rol', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
+Entity - rol<a onclick="javascript: showVpLink('SenaTecnicaPostgres.vpp://modelelement/zUJ_H8aGAqAQZRUi', 'rol\nSenaTecnicaPostgres.vpp://modelelement/zUJ_H8aGAqAQZRUi', 'rol', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
 	<p>
 	</p>
 	<table border="0" cellpadding="0" width="100%" cellspacing="0">
@@ -188,7 +188,7 @@ Columns Summary			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">int(10)</span>			</td>
+<span class="TableContent">int4</span>			</td>
 			<td>
 			</td>
 			<td class="TableContent">
@@ -207,7 +207,7 @@ No			</td>
 			</td>
 			<td class="TableContent">
 				<span class="TableContent">
-<a href="DBTable_zUJ_H8aGAqAQZRUi.html#3X5_H8aGAqAQZRUn" class="ItemLink">rol</a>				</span>
+<a href="DBTable_zUJ_H8aGAqAQZRUi.html#3X5_H8aGAqAQZRUn" class="ItemLink">nombre_rol</a>				</span>
 			</td>
 			<td>
 			</td>
@@ -333,7 +333,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/OneToManyRelationship.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/OneToManyRelationship.png'); background-repeat: no-repeat;">
 					</div>
-&nbsp;<a href="DBTable_zUJ_H8aGAqAQZRUi.html#wvJXX8aGAqACbg8U" class="ItemLink"> : Relationship</a>				</span>
+&nbsp;<a href="DBTable_zUJ_H8aGAqAQZRUi.html#wvJXX8aGAqACbg8U" class="ItemLink">fk_rol_clie : Relationship</a>				</span>
 			</td>
 			<td class="TableCellSpaceHolder20Px">
 			</td>
@@ -416,7 +416,7 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">int</span>			</td>
+<span class="TableContent">int4</span>			</td>
 		</tr>
 		<tr class="TableRow1">
 			<td>
@@ -552,7 +552,7 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">rol</span>			</td>
+<span class="TableContent">nombre_rol</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td>
@@ -628,23 +628,13 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">Id Generator</span>			</td>
-			<td>
-			</td>
-			<td>
-<span class="TableContent">native</span>			</td>
-		</tr>
-		<tr class="TableRow2">
-			<td>
-			</td>
-			<td>
 <span class="TableContent">Foreign Key</span>			</td>
 			<td>
 			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -654,7 +644,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">Unspecified</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -1032,7 +1022,7 @@ Relationships Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent"></span>			</td>
+<span class="TableContent">fk_rol_clie</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td>
@@ -1073,16 +1063,6 @@ Relationships Detail			</td>
 			</td>
 			<td>
 <span class="TableContent">Physical</span>			</td>
-		</tr>
-		<tr class="TableRow2">
-			<td>
-			</td>
-			<td>
-<span class="TableContent">Foreign Key Relationship Pattern</span>			</td>
-			<td>
-			</td>
-			<td>
-<span class="TableContent">{association_name}</span>			</td>
 		</tr>
 	</table>
 	<table border="0" cellpadding="0" width="100%" cellspacing="0">
@@ -1141,7 +1121,7 @@ Appears In			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/ERDiagram.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/ERDiagram.png'); background-repeat: no-repeat;">
 					</div>
-&nbsp;<a href="ERDiagram_KAB_H8aGAqAQZRK7.html" class="ItemLink">Entity Relationship Semantic Primary Keys : Entity Relationship Diagram</a>				</span>
+&nbsp;<a href="ERDiagram_KAB_H8aGAqAQZRK7.html" class="ItemLink">Entity Relationship Tecnical Primary Keys : Entity Relationship Diagram</a>				</span>
 			</td>
 		</tr>
 	</table>
